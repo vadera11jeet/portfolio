@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const MenuOverlay = ({ links }: NavMenuLinkProps) => {
   return (
-    <div className="flex flex-col w-screen justify-center items-center h-[100vh]">
+    <div className="flex z-10  flex-col w-screen justify-center items-center h-[100vh]">
       <ul>
         {links.map((link, index) => (
           <li key={index} className="pt-2 text-2xl ">

@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section className="min-h-screen text-center flex flex-col gap-5 justify-center p-4">
       <div>
-        <h1 className="text-5xl underline underline-offset-8 ring-offset-neutral-50">
+        <h1 className="text-5xl font-bold underline underline-offset-8 ring-offset-neutral-50">
           Skills
         </h1>
       </div>
