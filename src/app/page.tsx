@@ -2,6 +2,9 @@ import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
 import Skills from "@/components/skills/Skills";
 import Experience from "@/components/experience/Experience";
+import Projects from "@/components/project/Projects";
+import Connect from "@/components/Connect/Connect";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -11,7 +14,10 @@ export default function Home() {
         <Hero />
         <Skills />
         <Experience />
+        <Projects />
+        <Connect />
       </main>
+      <Footer />
     </div>
   );
 }

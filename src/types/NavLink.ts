@@ -5,4 +5,5 @@ export type NavLinkProps = {
 
 export type NavMenuLinkProps = {
   links: NavLinkProps[];
+  closeMenu: (state: boolean) => void;
 };

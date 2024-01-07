@@ -18,7 +18,7 @@
     "sequelize",
     "mongoose"
   ],
-  "database": ["mongodb", "my sql"],
+  "database": ["mongodb", "my sql", "postgres sql"],
 
   "tools": ["git", "git hub", "jira", "bit bucket", "gcp cloud function"]
 }

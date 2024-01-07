@@ -4,9 +4,9 @@ import TimeLine from "./TimeLine";
 
 const Experience = () => {
   return (
-    <section className="min-h-screen container text-center flex flex-col gap-6 p-4 m-5">
+    <section id="experience" className="min-h-screen container text-center flex flex-col gap-6 p-4 m-5">
       <div className="mt-9 pt-16 mb-5">
-        <h1 className="text-4xl font-bold underline underline-offset-auto ring-offset-neutral-50">
+        <h1 className="text-5xl font-bold underline underline-offset-auto ring-offset-neutral-50">
           experience
         </h1>
       </div>

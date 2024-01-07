@@ -5,10 +5,10 @@ import NavLinks from "../utils/NavLinks";
 import MenuOverlay from "./MenuOverlay";
 
 const NAV_LINKS = [
-  { href: "#about", title: "about me" },
+  { href: "#skills", title: "Skills" },
   { href: "#experience", title: "experience" },
   { href: "#projects", title: "projects" },
-  { href: "#contact", title: "connect with me" },
+  { href: "#connect", title: "connect with me" },
 ];
 
 const NavigationLink = () => {
@@ -26,7 +26,9 @@ const NavigationLink = () => {
         )}
       </button>
 
-      {isMenuOpen && <MenuOverlay links={NAV_LINKS} />}
+      {isMenuOpen && (
+        <MenuOverlay links={NAV_LINKS} closeMenu={setIsMenuOpen} />
+      )}
 
       <nav className="menu hidden md:block md:w-auto" id="nav">
         <ul className="flex py-4 md:p-0 md:flex-row ">
